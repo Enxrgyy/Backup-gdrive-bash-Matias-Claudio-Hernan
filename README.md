@@ -36,4 +36,4 @@ Seguridad
 
 El archivo config/token.json guarda los datos de acceso a la cuenta de Google, por eso está en el .gitignore y no se sube al repositorio.
 
-**[Ver Informe Técnico PDF](./InformeRedesavanzadas.pdf)**
+**[Ver Informe Técnico PDF](./InformeRedesavanzadas.pdf?raw=true)**
