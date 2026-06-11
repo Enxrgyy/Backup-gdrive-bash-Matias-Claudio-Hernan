@@ -74,7 +74,8 @@ fi
 rm -f "$TEMP_DIR/$BACKUP_NAME"
 log "Archivo temporal eliminado."
 log "======= RESPALDO COMPLETADO ======="
-exit 0
 
-# --- 6. Enviar notificacion por email ---
+log "Enviando notificación por correo..."
 echo "Respaldo completado: $BACKUP_NAME - $(date)" | mail -s "Backup OK - $(date)" redesavanzadas1incapaz@gmail.com
+
+exit  0
